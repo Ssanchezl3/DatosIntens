@@ -1,0 +1,264 @@
+LocationID,Borough,Zone,service_zone
+1,Bronx,Zone_1,Airports
+2,Manhattan,Zone_2,Boro Zone
+3,Brooklyn,Zone_3,EWR
+4,Queens,Zone_4,Boro Zone
+5,Manhattan,Zone_5,EWR
+6,Staten Island,Zone_6,Airports
+7,Bronx,Zone_7,Boro Zone
+8,Manhattan,Zone_8,Yellow Zone
+9,Queens,Zone_9,Yellow Zone
+10,Bronx,Zone_10,EWR
+11,Queens,Zone_11,Airports
+12,Manhattan,Zone_12,Boro Zone
+13,Bronx,Zone_13,Airports
+14,Staten Island,Zone_14,Yellow Zone
+15,Brooklyn,Zone_15,EWR
+16,Brooklyn,Zone_16,Airports
+17,Brooklyn,Zone_17,Airports
+18,Bronx,Zone_18,Boro Zone
+19,Queens,Zone_19,Airports
+20,Bronx,Zone_20,EWR
+21,Queens,Zone_21,EWR
+22,Manhattan,Zone_22,Yellow Zone
+23,Manhattan,Zone_23,Airports
+24,Manhattan,Zone_24,Airports
+25,Brooklyn,Zone_25,EWR
+26,Brooklyn,Zone_26,Boro Zone
+27,Bronx,Zone_27,Boro Zone
+28,Manhattan,Zone_28,Airports
+29,Manhattan,Zone_29,EWR
+30,Queens,Zone_30,Airports
+31,Manhattan,Zone_31,EWR
+32,Staten Island,Zone_32,EWR
+33,Staten Island,Zone_33,Yellow Zone
+34,Brooklyn,Zone_34,EWR
+35,Bronx,Zone_35,Yellow Zone
+36,Staten Island,Zone_36,EWR
+37,Manhattan,Zone_37,Yellow Zone
+38,Brooklyn,Zone_38,Airports
+39,Manhattan,Zone_39,Airports
+40,Bronx,Zone_40,Yellow Zone
+41,Bronx,Zone_41,Boro Zone
+42,Bronx,Zone_42,Boro Zone
+43,Manhattan,Zone_43,Airports
+44,Queens,Zone_44,Airports
+45,Manhattan,Zone_45,Boro Zone
+46,Manhattan,Zone_46,Yellow Zone
+47,Brooklyn,Zone_47,Yellow Zone
+48,Manhattan,Zone_48,Boro Zone
+49,Manhattan,Zone_49,Airports
+50,Queens,Zone_50,Boro Zone
+51,Manhattan,Zone_51,Airports
+52,Manhattan,Zone_52,EWR
+53,Manhattan,Zone_53,EWR
+54,Manhattan,Zone_54,Boro Zone
+55,Bronx,Zone_55,Yellow Zone
+56,Queens,Zone_56,Boro Zone
+57,Brooklyn,Zone_57,Yellow Zone
+58,Brooklyn,Zone_58,Boro Zone
+59,Manhattan,Zone_59,Airports
+60,Bronx,Zone_60,Airports
+61,Queens,Zone_61,Airports
+62,Brooklyn,Zone_62,Airports
+63,Manhattan,Zone_63,Yellow Zone
+64,Queens,Zone_64,Airports
+65,Staten Island,Zone_65,EWR
+66,Manhattan,Zone_66,EWR
+67,Queens,Zone_67,Yellow Zone
+68,Brooklyn,Zone_68,Boro Zone
+69,Brooklyn,Zone_69,Airports
+70,Queens,Zone_70,Boro Zone
+71,Queens,Zone_71,Boro Zone
+72,Staten Island,Zone_72,Yellow Zone
+73,Manhattan,Zone_73,EWR
+74,Manhattan,Zone_74,Airports
+75,Brooklyn,Zone_75,Airports
+76,Staten Island,Zone_76,Airports
+77,Brooklyn,Zone_77,Airports
+78,Brooklyn,Zone_78,EWR
+79,Manhattan,Zone_79,EWR
+80,Manhattan,Zone_80,Boro Zone
+81,Queens,Zone_81,Airports
+82,Manhattan,Zone_82,Yellow Zone
+83,Manhattan,Zone_83,Yellow Zone
+84,Manhattan,Zone_84,Airports
+85,Manhattan,Zone_85,EWR
+86,Manhattan,Zone_86,Airports
+87,Queens,Zone_87,Yellow Zone
+88,Manhattan,Zone_88,Airports
+89,Staten Island,Zone_89,Airports
+90,Manhattan,Zone_90,Boro Zone
+91,Queens,Zone_91,Boro Zone
+92,Manhattan,Zone_92,Yellow Zone
+93,Queens,Zone_93,Airports
+94,Queens,Zone_94,EWR
+95,Queens,Zone_95,Yellow Zone
+96,Manhattan,Zone_96,EWR
+97,Bronx,Zone_97,Airports
+98,Queens,Zone_98,EWR
+99,Queens,Zone_99,Yellow Zone
+100,Manhattan,Zone_100,Yellow Zone
+101,Queens,Zone_101,Airports
+102,Brooklyn,Zone_102,Yellow Zone
+103,Queens,Zone_103,Boro Zone
+104,Staten Island,Zone_104,Airports
+105,Brooklyn,Zone_105,Airports
+106,Brooklyn,Zone_106,Airports
+107,Queens,Zone_107,EWR
+108,Bronx,Zone_108,Boro Zone
+109,Queens,Zone_109,Airports
+110,Manhattan,Zone_110,EWR
+111,Queens,Zone_111,Airports
+112,Queens,Zone_112,EWR
+113,Brooklyn,Zone_113,Boro Zone
+114,Queens,Zone_114,Yellow Zone
+115,Manhattan,Zone_115,Yellow Zone
+116,Bronx,Zone_116,Yellow Zone
+117,Staten Island,Zone_117,EWR
+118,Manhattan,Zone_118,EWR
+119,Queens,Zone_119,Boro Zone
+120,Manhattan,Zone_120,EWR
+121,Brooklyn,Zone_121,Yellow Zone
+122,Manhattan,Zone_122,EWR
+123,Manhattan,Zone_123,Yellow Zone
+124,Manhattan,Zone_124,Airports
+125,Manhattan,Zone_125,Yellow Zone
+126,Manhattan,Zone_126,EWR
+127,Manhattan,Zone_127,EWR
+128,Queens,Zone_128,EWR
+129,Brooklyn,Zone_129,Boro Zone
+130,Brooklyn,Zone_130,Boro Zone
+131,Manhattan,Zone_131,Yellow Zone
+132,Queens,Zone_132,Yellow Zone
+133,Brooklyn,Zone_133,Boro Zone
+134,Manhattan,Zone_134,EWR
+135,Manhattan,Zone_135,Boro Zone
+136,Manhattan,Zone_136,Boro Zone
+137,Bronx,Zone_137,Boro Zone
+138,Manhattan,Zone_138,Airports
+139,Manhattan,Zone_139,Boro Zone
+140,Queens,Zone_140,Boro Zone
+141,Brooklyn,Zone_141,Boro Zone
+142,Manhattan,Zone_142,Yellow Zone
+143,Queens,Zone_143,Yellow Zone
+144,Brooklyn,Zone_144,Airports
+145,Queens,Zone_145,Airports
+146,Brooklyn,Zone_146,Boro Zone
+147,Brooklyn,Zone_147,EWR
+148,Manhattan,Zone_148,Yellow Zone
+149,Brooklyn,Zone_149,Airports
+150,Brooklyn,Zone_150,EWR
+151,Manhattan,Zone_151,Boro Zone
+152,Brooklyn,Zone_152,Boro Zone
+153,Queens,Zone_153,Boro Zone
+154,Brooklyn,Zone_154,Yellow Zone
+155,Queens,Zone_155,EWR
+156,Brooklyn,Zone_156,Airports
+157,Queens,Zone_157,Yellow Zone
+158,Manhattan,Zone_158,Boro Zone
+159,Manhattan,Zone_159,Yellow Zone
+160,Manhattan,Zone_160,Boro Zone
+161,Queens,Zone_161,Airports
+162,Manhattan,Zone_162,Airports
+163,Staten Island,Zone_163,Yellow Zone
+164,Bronx,Zone_164,EWR
+165,Bronx,Zone_165,Boro Zone
+166,Bronx,Zone_166,EWR
+167,Brooklyn,Zone_167,Airports
+168,EWR,Zone_168,Boro Zone
+169,Brooklyn,Zone_169,EWR
+170,Bronx,Zone_170,Airports
+171,Queens,Zone_171,Boro Zone
+172,Manhattan,Zone_172,EWR
+173,Bronx,Zone_173,EWR
+174,Brooklyn,Zone_174,Boro Zone
+175,Queens,Zone_175,Boro Zone
+176,Queens,Zone_176,Yellow Zone
+177,Manhattan,Zone_177,Airports
+178,Queens,Zone_178,EWR
+179,Brooklyn,Zone_179,Airports
+180,Brooklyn,Zone_180,Airports
+181,Brooklyn,Zone_181,Yellow Zone
+182,Brooklyn,Zone_182,Boro Zone
+183,Manhattan,Zone_183,EWR
+184,Queens,Zone_184,Airports
+185,Queens,Zone_185,Airports
+186,Manhattan,Zone_186,Yellow Zone
+187,Brooklyn,Zone_187,Boro Zone
+188,Bronx,Zone_188,Boro Zone
+189,Queens,Zone_189,Boro Zone
+190,Brooklyn,Zone_190,EWR
+191,Bronx,Zone_191,EWR
+192,Manhattan,Zone_192,Yellow Zone
+193,Brooklyn,Zone_193,Yellow Zone
+194,Brooklyn,Zone_194,EWR
+195,Bronx,Zone_195,Boro Zone
+196,Queens,Zone_196,Airports
+197,Manhattan,Zone_197,Boro Zone
+198,Manhattan,Zone_198,Airports
+199,Manhattan,Zone_199,Boro Zone
+200,Brooklyn,Zone_200,EWR
+201,Bronx,Zone_201,Airports
+202,Manhattan,Zone_202,Boro Zone
+203,Brooklyn,Zone_203,Boro Zone
+204,Staten Island,Zone_204,Yellow Zone
+205,Queens,Zone_205,Boro Zone
+206,Bronx,Zone_206,Boro Zone
+207,Queens,Zone_207,EWR
+208,Queens,Zone_208,EWR
+209,Manhattan,Zone_209,Yellow Zone
+210,Manhattan,Zone_210,EWR
+211,Manhattan,Zone_211,Boro Zone
+212,Queens,Zone_212,Yellow Zone
+213,Staten Island,Zone_213,EWR
+214,Bronx,Zone_214,Boro Zone
+215,Staten Island,Zone_215,Boro Zone
+216,Queens,Zone_216,EWR
+217,Bronx,Zone_217,Yellow Zone
+218,Bronx,Zone_218,Airports
+219,Bronx,Zone_219,EWR
+220,Manhattan,Zone_220,Boro Zone
+221,Brooklyn,Zone_221,EWR
+222,Manhattan,Zone_222,Airports
+223,Manhattan,Zone_223,Airports
+224,Manhattan,Zone_224,Yellow Zone
+225,Manhattan,Zone_225,EWR
+226,Bronx,Zone_226,Yellow Zone
+227,Manhattan,Zone_227,Yellow Zone
+228,Bronx,Zone_228,EWR
+229,Brooklyn,Zone_229,Airports
+230,Manhattan,Zone_230,EWR
+231,Staten Island,Zone_231,Boro Zone
+232,Staten Island,Zone_232,Boro Zone
+233,Bronx,Zone_233,Yellow Zone
+234,Manhattan,Zone_234,EWR
+235,Manhattan,Zone_235,Yellow Zone
+236,Bronx,Zone_236,EWR
+237,Brooklyn,Zone_237,Yellow Zone
+238,Staten Island,Zone_238,Yellow Zone
+239,Manhattan,Zone_239,Boro Zone
+240,Staten Island,Zone_240,Airports
+241,Manhattan,Zone_241,Yellow Zone
+242,Brooklyn,Zone_242,Yellow Zone
+243,Staten Island,Zone_243,Airports
+244,Manhattan,Zone_244,Boro Zone
+245,Manhattan,Zone_245,Airports
+246,Bronx,Zone_246,Boro Zone
+247,Manhattan,Zone_247,EWR
+248,EWR,Zone_248,Boro Zone
+249,Manhattan,Zone_249,Yellow Zone
+250,Queens,Zone_250,Airports
+251,Queens,Zone_251,Boro Zone
+252,Brooklyn,Zone_252,Boro Zone
+253,Queens,Zone_253,Boro Zone
+254,Manhattan,Zone_254,Boro Zone
+255,Manhattan,Zone_255,EWR
+256,Manhattan,Zone_256,Airports
+257,Brooklyn,Zone_257,Airports
+258,Bronx,Zone_258,Yellow Zone
+259,Manhattan,Zone_259,Boro Zone
+260,Queens,Zone_260,Yellow Zone
+261,Manhattan,Zone_261,Airports
+262,Bronx,Zone_262,Yellow Zone
+263,Brooklyn,Zone_263,Yellow Zone

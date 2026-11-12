@@ -1,0 +1,13 @@
+# Entorno virtual
+venv/
+
+# Caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dataset oficial pesado (NO versionar; se descarga de la docente)
+datos/yellow_tripdata_2026-01.parquet
+
+# Salidas regenerables del lago de datos (se reconstruyen con el notebook)
+lago/bronze/
