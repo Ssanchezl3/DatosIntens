@@ -18,6 +18,10 @@
 │   ├── diagrama_er.png
 │   ├── diagrama_estrella.png
 │   └── fig_tamanos.png
+├── tablas_para_S3/                      <- 🟢 TODO para Leidy (Rol B)
+│   ├── GUIA_ROL_B_Leidy.md              <- Guía paso a paso de AWS
+│   ├── dimensiones/                     <- dim_tiempo, dim_zona, dim_pago, dim_tarifa
+│   └── fct_viajes_muestra/              <- muestra de hechos (100k, cabe en GitHub)
 ├── 01_generar_datos.py                  <- Dataset sintético (semilla 2026)
 ├── 02_esquema_estrella.py               <- Construye el esquema estrella
 ├── 03_diagramas.py                      <- Diagramas y gráficos
