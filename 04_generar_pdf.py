@@ -171,13 +171,14 @@ p(f"""Se emplea el archivo <b>yellow_tripdata_2026-01.parquet</b> entregado por 
 zonas de la TLC (<i>taxi zone lookup</i>), que asocia cada <font face='Courier'>LocationID</font>
 con su distrito (<i>borough</i>) y zona. El diccionario de datos oficial de la TLC se encuentra en
 el portal público de la comisión (NYC TLC, s. f.).""")
-p(f"""<b>Nota de reproducibilidad.</b> La ejecución registrada en este informe se realizó sobre una
-muestra controlada de <b>{m['n_viajes']:,.0f} viajes</b> generada con semilla fija
-(<font face='Courier'>SEED = 2026</font>) que reproduce las propiedades verificadas del archivo
-oficial (patrón de nulos ligado a <font face='Courier'>payment_type = 0</font>, valores de
-<font face='Courier'>cbd_congestion_fee</font> en {{−0,75; 0,00; 0,75}} y anomalías de distancia y
-tarifa). Al disponer del archivo oficial completo, basta sustituir la ruta de entrada; el código
-es idéntico.""".replace(",", "."))
+p(f"""<b>Nota de reproducibilidad.</b> La ejecución registrada en este informe se realizó sobre el
+<b>archivo oficial completo</b> entregado por la docente. Tras una limpieza temporal mínima
+(exclusión de viajes con llegada anterior a la recogida y de los 7 registros fuera de enero 2026),
+se procesaron <b>{m['n_viajes']:,.0f} viajes</b>. Se verificó que el archivo reproduce los valores
+del Anexo A: 3.724.889 registros, 20 columnas, ≈554 MB en memoria, y la distribución de
+<font face='Courier'>cbd_congestion_fee</font> en {{−0,75; 0,00; 0,75}}. La tabla de zonas empleada
+es la oficial de la TLC (<font face='Courier'>taxi_zone_lookup.csv</font>, 265 zonas). El código es
+determinista; basta ejecutar el notebook con el archivo en <font face='Courier'>datos/</font>.""".replace(",", "."))
 p("Licencia: los datos de la TLC son de uso público (NYC Open Data / TLC Trip Record Data).")
 
 h2("3.2 Diseño del esquema estrella (cuatro pasos)")
@@ -217,11 +218,15 @@ fig("informe/diagrama_er.png", "Figura 1. Modelo entidad-relación de la operaci
 fig("informe/diagrama_estrella.png", "Figura 2. Esquema estrella resultante. Grano del hecho declarado explícitamente: un (1) viaje de taxi.", 14*cm)
 
 h2("4.2 Materialización y comparación de formatos (resultado local)")
-p(f"""La tabla de hechos se materializó en tres configuraciones. Sobre la muestra de
-{m['n_viajes']:,.0f} viajes, los tamaños en disco fueron: CSV ≈ {m['csv_mb']:.1f} MB,
-Parquet sin partición ≈ {m['parquet_mb']:.1f} MB y Parquet particionado por día ≈
-{m['parquet_part_mb']:.1f} MB. Parquet reduce el tamaño frente a CSV gracias a la compresión y la
-codificación columnar.""".replace(",", "."))
+reduccion = (1 - m['parquet_mb']/m['csv_mb']) * 100
+p(f"""La tabla de hechos ({m['n_viajes']:,.0f} viajes) se materializó en tres configuraciones. Los
+tamaños en disco fueron: CSV ≈ {m['csv_mb']:.1f} MB, Parquet sin partición ≈ {m['parquet_mb']:.1f}
+MB y Parquet particionado por día ≈ {m['parquet_part_mb']:.1f} MB. Es decir, Parquet reduce el
+tamaño frente a CSV en aproximadamente un <b>{reduccion:.0f}%</b> gracias a la compresión y la
+codificación columnar. El particionado por día ocupa algo más que el Parquet plano porque fragmenta
+los datos en 31 archivos (uno por día), lo que introduce sobrecosto de metadatos por archivo; su
+ventaja no está en el tamaño sino en el menor volumen escaneado al filtrar por fecha en
+Athena.""".replace(",", "."))
 fig("informe/fig_tamanos.png", "Figura 3. Tamaño en disco de la tabla de hechos por formato.", 13*cm)
 p("""La integridad referencial de las cinco claves foráneas se validó correctamente antes de
 escribir las tablas (ver anexo: salida del notebook, '[OK] integridad referencial correcta' para

@@ -30,8 +30,11 @@ RUTA_SINT = "datos/yellow_tripdata_2026-01_sintetico.parquet"
 ruta = RUTA_OFICIAL if os.path.exists(RUTA_OFICIAL) else RUTA_SINT
 print(f"Cargando: {ruta}")
 df = pd.read_parquet(ruta)
-zonas = pd.read_csv("datos/taxi_zone_lookup.csv")
-print(f"  {len(df):,} viajes | {df.shape[1]} columnas")
+# Tabla de zonas: prioriza la OFICIAL de la TLC (265 zonas); si no, la local.
+RUTA_ZONAS_OF = "datos/taxi_zone_lookup_oficial.csv"
+RUTA_ZONAS = RUTA_ZONAS_OF if os.path.exists(RUTA_ZONAS_OF) else "datos/taxi_zone_lookup.csv"
+zonas = pd.read_csv(RUTA_ZONAS)
+print(f"  {len(df):,} viajes | {df.shape[1]} columnas | zonas: {RUTA_ZONAS} ({len(zonas)})")
 
 # ---------------------------------------------------------------
 # 2. Limpieza minima (consistencia basica antes de modelar)
